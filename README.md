@@ -27,7 +27,7 @@ Letter | [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) | 
 a | [\[a\]](https://en.wikipedia.org/wiki/Open_front_unrounded_vowel) | like 'a' in "bra"
 e | [\[e\]](https://en.wikipedia.org/wiki/Mid_front_unrounded_vowel) | like 'e' in "yes"
 i | [\[i\]](https://en.wikipedia.org/wiki/Close_front_unrounded_vowel) | like 'ee' in "bee"
-o | [\[o\]](https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel) | a bit like 'oo' in "book"
+o | [\[o\]](https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel) | like 'o' in "nor"
 u | [\[u\]](https://en.wikipedia.org/wiki/Close_back_rounded_vowel) | like 'ou' in "you"
 b | [\[b\]](https://en.wikipedia.org/wiki/Voiced_bilabial_plosive) | like 'b' in "bee"
 c | [\[t͡ʃ\]](https://en.wikipedia.org/wiki/Voiceless_postalveolar_affricate) | like 'ch' in "char"
