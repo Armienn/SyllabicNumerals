@@ -22,6 +22,8 @@ If you need to communicate numbers, pronunciation is important, especially for s
 
 ### Standard Pronounciation
 
+This is the suggested pronounciation for each sound, along with the closest examples in english. The chosen sounds were a trade-off between being commonly distinguishable by many languages and being relatable to their letter.
+
 Letter | [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) | English description
 --|--|--
 a | [\[a\]](https://en.wikipedia.org/wiki/Open_front_unrounded_vowel) | like 'a' in "bra"
@@ -48,12 +50,3 @@ v | [\[v\]](https://en.wikipedia.org/wiki/Voiced_labiodental_fricative) | like '
 w | [\[w\]](https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant) | like 'w' in "way"
 x | [\[ks\]](https://en.wikipedia.org/wiki/X) | like 'x' in "axe"
 z | [\[ts\]](https://en.wikipedia.org/wiki/Z) | like 'tz' in "hertz"
-
-
-
-
-
-
-
-
-
