@@ -8,7 +8,7 @@ Syllabic numerals might be seen as either a base-100 system, or perhaps a mixed 
 
 Numbers of a hundred and above work are constructed by adding additional syllables; 1 is "e", 100 is "ea", 10000 is "eaa".
 
-n alternate, more procedural description is this: A number `n` between 0 and 99 is converted to a syllable by finding `c = floor(n / 5)` and `v = n % 5`. A syllable is then constructed by taking first the character at index `c` in: `_bcdfghjklmnprstvwxz`, and then the character at index `v` in: `aeiou`, and finally removing `_` if present. Thus from 19 we get `c = 3` and `v = 4`, which results in the syllable "du", and from 3 we get "o".
+An alternate, more procedural description is this: A number `n` between 0 and 99 is converted to a syllable by finding `c = floor(n / 5)` and `v = n % 5`. A syllable is then constructed by taking first the character at index `c` in: `_bcdfghjklmnprstvwxz`, and then the character at index `v` in: `aeiou`, and finally removing `_` if present. Thus from 19 we get `c = 3` and `v = 4`, which results in the syllable "du", and from 3 we get "o".
 
 ## Why?
 
@@ -39,7 +39,7 @@ j | [\[j\]](https://en.wikipedia.org/wiki/Voiced_palatal_approximant) | like 'y'
 k | [\[k\]](https://en.wikipedia.org/wiki/Voiceless_velar_plosive) | like 'c' in "cow"
 l | [\[l\]](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants) | like 'l' in "lie"
 m | [\[m\]](https://en.wikipedia.org/wiki/Voiced_bilabial_nasal) | like 'm' in "me"
-n | [\[n\]](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals#Alveolar) | like 'no' in "no"
+n | [\[n\]](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals#Alveolar) | like 'n' in "no"
 p | [\[p\]](https://en.wikipedia.org/wiki/Voiceless_bilabial_plosive) | like 'p' in "pee"
 r | [\[r\]](https://en.wikipedia.org/wiki/Voiced_alveolar_and_postalveolar_approximants#Postalveolar) | like 'r' in "red"
 s | [\[s\]](https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative) | like 's' in "so"
