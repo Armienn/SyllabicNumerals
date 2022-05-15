@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<title>Syllabic Numerals</title>
+<script>
+	function updateSyllabicResult(number) {
+		document
+			.getElementById("syllabic-result")
+			.textContent = convertToSyllables(number)
+	}
+
+	function convertToSyllables(number) {
+		number += ""
+		if (number.length % 2 !== 0)
+			number = "0" + number
+		let result = ""
+		for (let i = 0; i < number.length; i += 2)
+			result += smallNumberToSyllable(+number.slice(i, i + 2))
+		return result
+	}
+
+	function smallNumberToSyllable(number) {
+		const vowels = "aeiou"
+		const consonants = " bcdfghjklmnprstvwxz"
+		const onset = consonants[Math.floor(number / 5)]
+		const coda = vowels[number % 5]
+		return onset.trim() + coda
+	}
+
+	function updateNumberResult(syllabic) {
+		document
+			.getElementById("number-result")
+			.textContent = convertToNumber(syllabic)
+	}
+
+	function convertToNumber(syllabic) {
+		const syllables = syllabic.split(/(?<=[aeiou])/)
+		return syllables
+			.map(syllableToNumber)
+			.map(x => (x < 10 ? "0" : "") + x)
+			.join("")
+	}
+
+	function syllableToNumber(syllable) {
+		if (syllable.length === 1)
+			syllable = " " + syllable
+		const onset = syllable[0]
+		const coda = syllable[1]
+		const vowels = "aeiou"
+		const consonants = " bcdfghjklmnprstvwxz"
+		return vowels.indexOf(coda) + consonants.indexOf(onset) * 5
+	}
+</script>
+
+<body>
+	<div class="to-syllabic">
+		<label>Type a number here to convert it to a syllabic numeral</label>
+		<input type="text"
+			oninput="updateSyllabicResult(event.target.value)">
+		<div id="syllabic-result"></div>
+	</div>
+	<div class="to-number">
+		<label>Type a syllabic numeral here to convert it to a number</label>
+		<input type="text"
+			oninput="updateNumberResult(event.target.value)">
+		<div id="number-result"></div>
+	</div>
+</body>
