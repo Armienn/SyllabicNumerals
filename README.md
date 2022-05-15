@@ -22,29 +22,38 @@ If you need to communicate numbers, pronunciation is important, especially for s
 
 ### Standard Pronounciation
 
-Letter | IPA | description
+Letter | [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) | English description
 --|--|--
-a | a | a
-e | a | a
-i | a | a
-o | a | a
-u | a | a
-b | a | a
-c | a | a
-d | a | a
-f | a | a
-g | a | a
-h | a | a
-j | a | a
-k | a | a
-l | a | a
-m | a | a
-n | a | a
-p | a | a
-r | a | a
-s | a | a
-t | a | a
-v | a | a
-w | a | a
-x | a | a
-z | a | a
+a | [\[a\]](https://en.wikipedia.org/wiki/Open_front_unrounded_vowel) | like 'a' in "bra"
+e | [\[e\]](https://en.wikipedia.org/wiki/Mid_front_unrounded_vowel) | like 'e' in "yes"
+i | [\[i\]](https://en.wikipedia.org/wiki/Close_front_unrounded_vowel) | like 'ee' in "bee"
+o | [\[o\]](https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel) | a bit like 'oo' in "book"
+u | [\[u\]](https://en.wikipedia.org/wiki/Close_back_rounded_vowel) | like 'ou' in "you"
+b | [\[b\]](https://en.wikipedia.org/wiki/Voiced_bilabial_plosive) | like 'b' in "bee"
+c | [\[t͡ʃ\]](https://en.wikipedia.org/wiki/Voiceless_postalveolar_affricate) | like 'ch' in "char"
+d | [\[d\]](https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_plosives) | like 'd' in "do"
+f | [\[f\]](https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative) | like 'f' in "fair"
+g | [\[g\]](https://en.wikipedia.org/wiki/Voiced_velar_plosive) | like 'g' in "go"
+h | [\[h\]](https://en.wikipedia.org/wiki/Voiceless_glottal_fricative) | like 'h' in "hi"
+j | [\[j\]](https://en.wikipedia.org/wiki/Voiced_palatal_approximant) | like 'y' in "you"
+k | [\[k\]](https://en.wikipedia.org/wiki/Voiceless_velar_plosive) | like 'c' in "cow"
+l | [\[l\]](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants) | like 'l' in "lie"
+m | [\[m\]](https://en.wikipedia.org/wiki/Voiced_bilabial_nasal) | like 'm' in "me"
+n | [\[n\]](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals#Alveolar) | like 'no' in "no"
+p | [\[p\]](https://en.wikipedia.org/wiki/Voiceless_bilabial_plosive) | like 'p' in "pee"
+r | [\[r\]](https://en.wikipedia.org/wiki/Voiced_alveolar_and_postalveolar_approximants#Postalveolar) | like 'r' in "red"
+s | [\[s\]](https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative) | like 's' in "so"
+t | [\[t\]](https://en.wikipedia.org/wiki/Voiceless_dental_and_alveolar_plosives) | like 't' in "tea"
+v | [\[v\]](https://en.wikipedia.org/wiki/Voiced_labiodental_fricative) | like 'v' in "vat"
+w | [\[w\]](https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant) | like 'w' in "way"
+x | [\[ks\]](https://en.wikipedia.org/wiki/X) | like 'x' in "axe"
+z | [\[ts\]](https://en.wikipedia.org/wiki/Z) | like 'tz' in "hertz"
+
+
+
+
+
+
+
+
+
