@@ -3,9 +3,13 @@
 <title>Syllabic Numerals</title>
 <script>
 	function updateSyllabicResult(number) {
+		number = number.trim()
+		const result = /\D/.test(number)
+			? "-" // there were non-numbers
+			: convertToSyllables(number)
 		document
 			.getElementById("syllabic-result")
-			.textContent = convertToSyllables(number)
+			.textContent = result
 	}
 
 	function convertToSyllables(number) {
@@ -27,9 +31,30 @@
 	}
 
 	function updateNumberResult(syllabic) {
+		syllabic = syllabic.trim().toLowerCase()
+		const result = isSyllabicNumeral(syllabic)
+			? convertToNumber(syllabic)
+			: "-"
 		document
 			.getElementById("number-result")
-			.textContent = convertToNumber(syllabic)
+			.textContent = result
+	}
+
+	function isSyllabicNumeral(text) {
+		const vowels = "aeiou"
+		const consonants = " bcdfghjklmnprstvwxz"
+		if (!vowels.includes(text[text.length - 1]))
+			return false
+		let previousWasVowel = true
+		for (let i = 0; i < text.length; i++) {
+			const allowableCharacters = previousWasVowel
+				? vowels + consonants
+				: vowels
+			if (!allowableCharacters.includes(text[i]))
+				return false
+			previousWasVowel = vowels.includes(text[i])
+		}
+		return true
 	}
 
 	function convertToNumber(syllabic) {
