@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <title>Syllabic Numerals</title>
 <script>
 	function updateSyllabicResult(number) {
@@ -50,16 +51,63 @@
 	}
 </script>
 
+<style>
+	body {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0 auto;
+		width: 40rem;
+	}
+
+	.to-syllabic,
+	.to-number {
+		border: 1px solid grey;
+		border-radius: 0.5rem;
+		padding: 0.5rem;
+	}
+
+	label {
+		display: block;
+	}
+
+	input {
+		margin: 0.5rem;
+		padding: 0.5rem;
+		font-size: 1rem;
+		width: calc(100% - 2rem);
+	}
+
+	.to-number {
+		margin-top: 1rem;
+	}
+
+</style>
+
 <body>
+	<h1>Syllabic Numerals</h1>
+
+	<p>
+		Syllabic numerals are a short and easy-to-remember representation of numbers.
+		This page allows you to convert to and from a syllabic representation; more information can be found
+		<a href="https://github.com/Armienn/SyllabicNumerals">here</a>
+	</p>
+
 	<div class="to-syllabic">
-		<label>Type a number here to convert it to a syllabic numeral</label>
-		<input type="text"
+		<label for="syllabic-input">
+			Convert a number to a syllabic numeral
+		</label>
+		<input id="syllabic-input"
+			type="text"
 			oninput="updateSyllabicResult(event.target.value)">
 		<div id="syllabic-result"></div>
 	</div>
+
 	<div class="to-number">
-		<label>Type a syllabic numeral here to convert it to a number</label>
-		<input type="text"
+		<label for="number-input">
+			Convert a syllabic numeral to a number
+		</label>
+		<input id="number-input"
+			type="text"
 			oninput="updateNumberResult(event.target.value)">
 		<div id="number-result"></div>
 	</div>
